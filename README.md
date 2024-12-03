@@ -146,14 +146,6 @@ EndGlobal
 
 В ходе данной лабораторной я научилась работать с API и Unity. Потребовалось много сил, что бы вникнуть и разобраться с каждой задачей, поскольку в ходе рботы появлялось много нюансов, которые требовали достаточно времени для изучения. Работа вышла интересной, с большим количеством необходимой информации
 
-| Plugin | README |
-| ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md][PlDb] |
-| GitHub | [plugins/github/README.md][PlGh] |
-| Google Drive | [plugins/googledrive/README.md][PlGd] |
-| OneDrive | [plugins/onedrive/README.md][PlOd] |
-| Medium | [plugins/medium/README.md][PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
 
 ## Powered by
 
