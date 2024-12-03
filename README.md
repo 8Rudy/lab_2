@@ -78,13 +78,14 @@
 ## Задание 2
 ### С помощью скрипта на языке Python заполните google-таблицу данными, описывающими выбранную игровую переменную в игре “СПАСТИ РТФ:Выживание”.
 
+-ссылка на гугл таблицу 
+https://docs.google.com/spreadsheets/d/1iiaMClYNakPxMpIi1tHBvmvNVliQhCiAm8BnDz8cU5I/edit?gid=0#gid=0
 ```py
-
 import gspread
 import numpy as np
 
-gc = gspread.service_account(filename='unitydatascience-442516-75e88216de80.json')
-sh = gc.open("AD_GameDev")
+gc = gspread.service_account(filename='unitydatascience-440712-4ca8beda3fa8.json')
+sh = gc.open("UnitySheets")
 
 hp = np.random.randint(0, 30, 10)
 time_hp = list(range(0, 10))
@@ -112,8 +113,7 @@ while i <= len(time_hp) + 1:
 ## Задание 3
 ### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
 
-- Перечисленные в этом туториале действия могут быть выполнены запуском на исполнение скрипт-файла, доступного [в репозитории](https://github.com/Den1sovDm1triy/hfss-scripting/blob/main/ScreatingSphereInAEDT.py).
-- Для запуска скрипт-файла откройте Ansys Electronics Desktop. Перейдите во вкладку [Automation] - [Run Script] - [Выберите файл с именем ScreatingSphereInAEDT.py из репозитория].
+- https://docs.google.com/spreadsheets/d/1iiaMClYNakPxMpIi1tHBvmvNVliQhCiAm8BnDz8cU5I/edit?gid=0#gid=0
 
 ```py
 
