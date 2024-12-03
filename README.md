@@ -8,7 +8,7 @@
 | ------ | ------ | ------ |
 | Задание 1 | * | 60 |
 | Задание 2 | * | 20 |
-| Задание 3 | * | 20 |
+| Задание 3 | # | 20 |
 
 знак "*" - задание выполнено; знак "#" - задание не выполнено;
 
@@ -110,41 +110,11 @@ while i <= len(time_hp) + 1:
     print(current_health, status)
 ```
 
-## Задание 3
-### Настройте на сцене Unity воспроизведение звуковых файлов, описывающих динамику изменения выбранной переменной. Например, если выбрано здоровье главного персонажа вы можете выводить сообщения, связанные с его состоянием.
-Ход работы: все звуки созданы с помощью нейросети
-Если здороьве <= 0, то воспроизводится "death"
-Если здоровье < 10, но не равно нулю, то воспроизводится "low hp"
-Если здоровье >= 10, то воспроизводится "you're fine"
 
-
-```py
-
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
-
-```
 
 ## Выводы
 
-В ходе данной лабораторной я научилась работать с API и Unity. Потребовалось много сил, что бы вникнуть и разобраться с каждой задачей, поскольку в ходе рботы появлялось много нюансов, которые требовали достаточно времени для изучения. Работа вышла интересной, с большим количеством необходимой информации
+В ходе данной лабораторной я научилась работать с API и Jupiter Notebook. Потребовалось много сил, что бы вникнуть и разобраться с каждой задачей, поскольку в ходе рботы появлялось много нюансов, которые требовали достаточно времени для изучения. Работа вышла интересной, с большим количеством необходимой информации
 
 
 ## Powered by
