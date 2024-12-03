@@ -78,7 +78,7 @@
 ## Задание 2
 ### С помощью скрипта на языке Python заполните google-таблицу данными, описывающими выбранную игровую переменную в игре “СПАСТИ РТФ:Выживание”.
 
--ссылка на гугл таблицу 
+- ссылка на гугл таблицу 
 https://docs.google.com/spreadsheets/d/1iiaMClYNakPxMpIi1tHBvmvNVliQhCiAm8BnDz8cU5I/edit?gid=0#gid=0
 ```py
 import gspread
@@ -111,35 +111,40 @@ while i <= len(time_hp) + 1:
 ```
 
 ## Задание 3
-### Какова роль параметра Lr? Ответьте на вопрос, приведите пример выполнения кода, который подтверждает ваш ответ. В качестве эксперимента можете изменить значение параметра.
+### Настройте на сцене Unity воспроизведение звуковых файлов, описывающих динамику изменения выбранной переменной. Например, если выбрано здоровье главного персонажа вы можете выводить сообщения, связанные с его состоянием.
+Ход работы: все звуки созданы с помощью нейросети
+Если здороьве <= 0, то воспроизводится "death"
+Если здоровье < 10, но не равно нулю, то воспроизводится "low hp"
+Если здоровье >= 10, то воспроизводится "you're fine"
 
-- https://docs.google.com/spreadsheets/d/1iiaMClYNakPxMpIi1tHBvmvNVliQhCiAm8BnDz8cU5I/edit?gid=0#gid=0
 
 ```py
 
-import ScriptEnv
-ScriptEnv.Initialize("Ansoft.ElectronicsDesktop")
-oDesktop.RestoreWindow()
-oProject = oDesktop.NewProject()
-oProject.Rename("C:/Users/denisov.dv/Documents/Ansoft/SphereDIffraction.aedt", True)
-oProject.InsertDesign("HFSS", "HFSSDesign1", "HFSS Terminal Network", "")
-oDesign = oProject.SetActiveDesign("HFSSDesign1")
-oEditor = oDesign.SetActiveEditor("3D Modeler")
-oEditor.CreateSphere(
-	[
-		"NAME:SphereParameters",
-		"XCenter:="		, "0mm",
-		"YCenter:="		, "0mm",
-		"ZCenter:="		, "0mm",
-		"Radius:="		, "1.0770329614269mm"
-	], 
-)
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B837D2A1-5E09-41C8-9D7A-3F4F2C5E8DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
 
 ```
 
 ## Выводы
 
-Абзац умных слов о том, что было сделано и что было узнано.
+В ходе данной лабораторной я научилась работать с API и Unity. Потребовалось много сил, что бы вникнуть и разобраться с каждой задачей, поскольку в ходе рботы появлялось много нюансов, которые требовали достаточно времени для изучения. Работа вышла интересной, с большим количеством необходимой информации
 
 | Plugin | README |
 | ------ | ------ |
